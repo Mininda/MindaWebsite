@@ -1,0 +1,15 @@
+/* Inline university marks, inspired by https://taiminglu.com/.
+   Keep the name and its small, vertically centered logo together when wrapping.
+   Only degree-granting universities in the education paragraph get a logo. */
+.education-summary .institution-link {
+  white-space: nowrap;
+}
+.education-summary .institution-logo {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  max-width: none;
+  margin-left: 3px;
+  vertical-align: middle;
+  object-fit: contain;
+}

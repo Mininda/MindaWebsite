@@ -1,0 +1,23 @@
+{
+  "description": "Unmodified official university website icons, displayed at 15px alongside degree-granting institution names. Trademarks remain the property of their respective institutions; used for factual identification only.",
+  "sources": [
+    {
+      "file": "harvard.png",
+      "institution": "Harvard University",
+      "url": "https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=192",
+      "page": "https://www.harvard.edu/"
+    },
+    {
+      "file": "duke.png",
+      "institution": "Duke University",
+      "url": "https://www.duke.edu/wp-content/uploads/2025/12/cropped-dfavicon-1-192x192.png",
+      "page": "https://www.duke.edu/"
+    },
+    {
+      "file": "duke-kunshan.png",
+      "institution": "Duke Kunshan University",
+      "url": "https://www.dukekunshan.edu.cn/favicon-192x192.png",
+      "page": "https://www.dukekunshan.edu.cn/"
+    }
+  ]
+}

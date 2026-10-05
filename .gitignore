@@ -1,0 +1,57 @@
+# Public deployment allowlist. New files stay local until explicitly approved.
+# In particular, do not publish file/, assets/files/, .preview/, or HTML trials.
+*
+!*/
+!/.gitignore
+!/.nojekyll
+!/CNAME
+!/index.html
+
+# Styles used by the approved homepage, plus the upstream license.
+!/assets/css/fonts.css
+!/assets/css/institution-logos.css
+!/assets/css/minimal-light.css
+!/assets/css/news-logos.css
+!/assets/css/portrait-small.css
+!/assets/css/publications.css
+!/assets/css/site.css
+!/assets/css/MINIMAL-LIGHT-LICENSE.txt
+
+# Self-hosted fonts and licenses.
+!/assets/fonts/crimson-pro-latin-italic.woff2
+!/assets/fonts/crimson-pro-latin.woff2
+!/assets/fonts/ubuntu-mono-latin.woff2
+!/assets/fonts/CRIMSON-PRO-LICENSE.txt
+!/assets/fonts/UBUNTU-MONO-LICENSE.txt
+!/assets/vendor/academicons/README.md
+!/assets/vendor/academicons/css/academicons.min.css
+!/assets/vendor/academicons/fonts/academicons.eot
+!/assets/vendor/academicons/fonts/academicons.svg
+!/assets/vendor/academicons/fonts/academicons.ttf
+!/assets/vendor/academicons/fonts/academicons.woff
+!/assets/vendor/fontawesome/LICENSE.txt
+!/assets/vendor/fontawesome/css/all.min.css
+!/assets/vendor/fontawesome/webfonts/fa-brands-400.ttf
+!/assets/vendor/fontawesome/webfonts/fa-brands-400.woff2
+!/assets/vendor/fontawesome/webfonts/fa-regular-400.ttf
+!/assets/vendor/fontawesome/webfonts/fa-regular-400.woff2
+
+# Only images actually shown on the homepage, with their source credits.
+!/assets/img/favicon-github-natsume.jpg
+!/assets/img/minda-zhao.jpg
+!/assets/img/institutions/duke-kunshan.png
+!/assets/img/institutions/duke.png
+!/assets/img/institutions/harvard.png
+!/assets/img/institutions/sources.json
+!/assets/img/news/acl-2026.png
+!/assets/img/news/colm.svg
+!/assets/img/news/kempner.jpg
+!/assets/img/news/npj-mark.svg
+!/assets/img/news/sources.json
+!/assets/img/publications/bad-dice-figure-1.png
+!/assets/img/publications/emotions-figure-1.png
+!/assets/img/publications/grading-scales-figure-9.jpeg
+!/assets/img/publications/rare-diseases-figure-1.png
+!/assets/img/publications/rg-icl-figure-1-preview.png
+!/assets/img/publications/trailblazer-figure-1.png
+!/assets/img/publications/sources.json

@@ -1,0 +1,142 @@
+/* Minimal Light supplies the typography and publication components.
+   Keep local rules to the requested portrait, content sections, and accessibility. */
+:root {
+  color-scheme: light;
+  --global-bg-color: #fff;
+  --global-theme-color: #002d72;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body {
+  display: flow-root;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #595959;
+  font: 16px/1.5 "Crimson Pro", serif;
+}
+h1, h2, h3, h4, h5, h6 { color: #043361; }
+strong { color: #222; }
+a { color: #39c; }
+a:hover { color: #069; }
+a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
+
+div.wrapper {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 650px);
+  align-items: start;
+  column-gap: 78px;
+  width: 960px;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+}
+.profile {
+  position: sticky;
+  top: 0;
+  float: none;
+  width: auto;
+  padding: 4em 0 0;
+  text-align: center;
+}
+.portrait-frame {
+  display: block;
+  width: 208px;
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
+.portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  border-radius: 5px;
+}
+.profile .position { margin: 0; font-size: 1.1rem; }
+.profile .affiliation { margin: 0; }
+.profile-links { display: flex; justify-content: center; gap: 5px; margin: 24px 0 0; }
+.profile .social-icons a,
+.profile .social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0;
+  color: #043361 !important;
+  font-size: 1.15rem;
+  line-height: 1;
+  border-radius: 100%;
+}
+.profile .social-icons .ai-google-scholar { font-size: 1.2rem; }
+.profile .social-icons a:hover { background: #fff; color: #000 !important; }
+
+main { min-width: 0; padding: 4em 0 50px; }
+main section {
+  float: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.news-list { margin-bottom: 20px; }
+.publication-note { margin: 0 0 15px; font-size: 14px; }
+.publication-group { margin: 0 0 15px; font-size: 16px; }
+.preprint-heading { margin-top: 24px; }
+
+/* Use the original pub-row / abbr / badge / teaser / links classes and CSS. */
+.publications ol.bibliography li.publication { margin-bottom: 32px; }
+.publication-visual { position: relative; padding: 0 15px; }
+.publication-content { position: relative; min-width: 0; padding: 0 15px 0 20px; }
+.figure-link { display: contents; }
+.figure-link:focus-visible .teaser { outline: 2px solid #39c; outline-offset: 4px; }
+.publications ol.bibliography li .teaser {
+  /* Preserve the entire scientific figure inside the template's image frame. */
+  object-fit: contain;
+  background: #fff;
+}
+.publications ol.bibliography li .abbr abbr { pointer-events: none; }
+.publications ol.bibliography li .links a.btn { color: #000; border-color: #000; font-size: 12px; }
+.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+
+.site-footer {
+  position: static;
+  float: none;
+  width: auto;
+  margin-top: 28px;
+  text-align: left;
+  font-size: 11px;
+}
+.skip-link { position: absolute; top: -80px; left: 20px; padding: 10px 16px; background: #fff; z-index: 10; }
+.skip-link:focus { top: 12px; }
+
+@media (max-height: 790px) and (min-width: 961px) {
+  .portrait-frame { width: 176px; }
+}
+
+@media (max-width: 960px) {
+  div.wrapper { display: block; width: auto; max-width: none; margin: 0 15px; }
+  .profile { position: static; padding: 30px 0 20px; }
+  .portrait-frame { width: 180px; }
+  main { padding: 20px 0 30px; border-top: 1px solid #e5e5e5; }
+}
+
+@media (max-width: 480px) {
+  .portrait-frame { width: 164px; }
+  .publications ol.bibliography li .abbr { width: min(270px, calc(100% - 30px)); }
+  .publication-content { padding-top: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+@media print {
+  body { padding: .4in; font-size: 12pt; }
+  div.wrapper { display: block; width: auto; max-width: none; margin: 0; }
+  .profile { position: static; padding: 0 0 20px; }
+  .portrait-frame { width: 90px; }
+  .site-footer, .skip-link { display: none; }
+  main { padding-top: 20px; }
+  main h2 { break-after: avoid; }
+  .publication { break-inside: avoid; }
+}

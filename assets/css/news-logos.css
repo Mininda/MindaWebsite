@@ -1,0 +1,14 @@
+/* Small venue marks beside News names, matching the inline school logos.
+   Keep only the final word/year with its mark so long venue names still wrap. */
+.news-list .news-logo-tail { white-space: nowrap; }
+.news-list .news-logo {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  max-width: none;
+  margin-left: 4px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+.news-list .news-logo--npj { width: 21px; }
+.news-list .news-logo--colm { width: 31px; }

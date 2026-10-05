@@ -1,0 +1,37 @@
+{
+  "description": "Official venue marks displayed in News: ACL, Kempner, COLM, and npj. Shapes and original colors are preserved; the compact npj file contains only the unchanged red npj lettermark paths from the full journal masthead. Institution trademarks remain with their owners.",
+  "sources": [
+    {
+      "file": "acl-2026.png",
+      "label": "ACL 2026",
+      "displayed_in_news": true,
+      "page": "https://2026.aclweb.org/",
+      "url": "https://2026.aclweb.org/assets/images/apple-touch-icon-152x152.png"
+    },
+    {
+      "file": "colm.svg",
+      "label": "COLM",
+      "displayed_in_news": true,
+      "page": "https://colm.cc/",
+      "url": "https://raw.githubusercontent.com/COLM-org/colm-org.github.io/main/static/images/logo.svg",
+      "note": "Official full-color, black-lettered variant for light backgrounds; unchanged SVG."
+    },
+    {
+      "file": "npj-mark.svg",
+      "label": "npj Artificial Intelligence",
+      "displayed_in_news": true,
+      "page": "https://www.nature.com/npjai/",
+      "url": "https://media.springernature.com/full/nature-cms/uploads/product/npjai/header-bb542070a376dda4c90dc7c5acb988e8.svg",
+      "original_file": "npj-ai.svg",
+      "note": "Original four red npj lettermark paths, isolated from the full masthead without redrawing or recoloring."
+    },
+    {
+      "file": "kempner.jpg",
+      "label": "Kempner Institute — Spring into Science",
+      "displayed_in_news": true,
+      "page": "https://kempnerinstitute.harvard.edu/events/spring-into-science-2/",
+      "url": "https://kempnerinstitute.harvard.edu/app/uploads/2024/01/cropped-Kempner-Favicon-300x300.jpg",
+      "note": "Kempner Institute's official compact mark, used to identify the event organizer."
+    }
+  ]
+}

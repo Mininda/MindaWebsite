@@ -1,0 +1,69 @@
+{
+  "retrieved": "2026-10-04",
+  "note": "Original figures from the adjacent, fully attributed publications. No diagrams were redrawn. The first method or pipeline figure was selected in each paper.",
+  "figures": [
+    {
+      "file": "bad-dice-figure-1.png",
+      "figure_link": "https://aclanthology.org/2026.acl-long.1051.pdf#page=2",
+      "paper": "Large Language Models Are Bad Dice Players",
+      "source": "https://aclanthology.org/2026.acl-long.1051/",
+      "pdf": "https://aclanthology.org/2026.acl-long.1051.pdf",
+      "figure": 1,
+      "pdf_page": 2,
+      "extraction": "Vector figure rendered at 5 pixels per PDF point from rectangle [291, 69, 528, 212]; surrounding article text and caption excluded.",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "file": "trailblazer-figure-1.png",
+      "figure_link": "https://arxiv.org/html/2602.06440v1#S3.F1",
+      "paper": "TrailBlazer",
+      "source": "https://arxiv.org/abs/2602.06440",
+      "original_image": "https://arxiv.org/html/2602.06440v1/framework_v1.png",
+      "figure": 1,
+      "pdf_page": 5,
+      "extraction": "Unmodified PNG downloaded from the paper's arXiv HTML."
+    },
+    {
+      "file": "grading-scales-figure-9.jpeg",
+      "figure_link": "https://www.nature.com/articles/s44387-026-00153-8_reference.pdf#page=7",
+      "paper": "Grading scale impact on LLM-as-a-judge",
+      "source": "https://doi.org/10.1038/s44387-026-00153-8",
+      "pdf": "https://www.nature.com/articles/s44387-026-00153-8_reference.pdf",
+      "figure": 9,
+      "pdf_page": 7,
+      "extraction": "Unmodified embedded 2000 by 759 JPEG. Figure 9 is the first pipeline diagram; Figures 1–8 show results.",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
+    {
+      "file": "rg-icl-figure-1.png",
+      "figure_link": "https://arxiv.org/pdf/2609.24057v1#page=39",
+      "thumbnail": "rg-icl-figure-1-preview.png",
+      "paper": "Representation-guided in-context learning for medical image interpretation with multimodal large language models",
+      "source": "https://arxiv.org/abs/2609.24057",
+      "pdf": "https://arxiv.org/pdf/2609.24057",
+      "figure": 1,
+      "pdf_page": 39,
+      "extraction": "Full embedded 4200 by 6000 image extracted without changes. Lightweight preview rasterized from the complete image bounds at 2 pixels per PDF point."
+    },
+    {
+      "file": "rare-diseases-figure-1.png",
+      "figure_link": "https://arxiv.org/html/2608.25236v1#Sx1.F1",
+      "paper": "Rare Diseases, Common Dilemmas",
+      "source": "https://arxiv.org/abs/2608.25236",
+      "pdf": "https://arxiv.org/pdf/2608.25236",
+      "figure": 1,
+      "pdf_page": 4,
+      "extraction": "Full embedded 3000 by 1221 image extracted without changes."
+    },
+    {
+      "file": "emotions-figure-1.png",
+      "figure_link": "https://arxiv.org/html/2604.02236v1#S2.F1",
+      "paper": "Do Emotions in Prompts Matter?",
+      "source": "https://arxiv.org/abs/2604.02236",
+      "original_image": "https://arxiv.org/html/2604.02236v1/pipeline.png",
+      "figure": 1,
+      "pdf_page": 4,
+      "extraction": "Unmodified PNG downloaded from the paper's arXiv HTML."
+    }
+  ]
+}

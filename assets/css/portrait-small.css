@@ -1,0 +1,19 @@
+/* Independent small-portrait preview, based on the original navy-badge page.
+   Only the portrait's on-screen width changes (about 10% smaller).
+   Keep the original image, 2:3 aspect ratio, centering, and surrounding spacing.
+   Print styles remain unchanged. */
+@media screen {
+  .portrait-frame { width: 188px; }
+}
+
+@media screen and (max-height: 790px) and (min-width: 961px) {
+  .portrait-frame { width: 160px; }
+}
+
+@media screen and (max-width: 960px) {
+  .portrait-frame { width: 162px; }
+}
+
+@media screen and (max-width: 480px) {
+  .portrait-frame { width: 148px; }
+}
