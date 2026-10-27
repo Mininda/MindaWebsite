@@ -1,6 +1,14 @@
 {
-  "description": "Official venue marks displayed in News: ACL, Kempner, COLM, and npj. Shapes and original colors are preserved; the compact npj file contains only the unchanged red npj lettermark paths from the full journal masthead. Institution trademarks remain with their owners.",
+  "description": "Official venue marks displayed in News: ACL, Kempner, COLM, ML4H, and npj. Shapes and original colors are preserved; the compact npj file contains only the unchanged red npj lettermark paths from the full journal masthead. Institution trademarks remain with their owners.",
   "sources": [
+    {
+      "file": "ml4h.png",
+      "label": "Machine Learning for Health (ML4H)",
+      "displayed_in_news": true,
+      "page": "https://ml4h.ahli.cc/",
+      "url": "https://raw.githubusercontent.com/ml4health/ml4health.github.io/master/2023/static/images/logo.png",
+      "note": "Unchanged ML4H conference mark from the official conference website repository; no year-specific text."
+    },
     {
       "file": "acl-2026.png",
       "label": "ACL 2026",
