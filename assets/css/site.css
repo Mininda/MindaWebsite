@@ -80,6 +80,7 @@ main section {
 }
 .news-list { margin-bottom: 20px; }
 .publication-note { margin: 0 0 15px; font-size: 14px; }
+.author-note { margin: 2px 0; font-size: 14px; line-height: 1.4; }
 .publication-group { margin: 0 0 15px; font-size: 16px; }
 .preprint-heading { margin-top: 24px; }
 
