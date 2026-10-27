@@ -1,13 +1,21 @@
 {
-  "description": "Official venue marks displayed in News: ACL, Kempner, COLM, ML4H, and npj. Shapes and original colors are preserved; the compact npj file contains only the unchanged red npj lettermark paths from the full journal masthead. Institution trademarks remain with their owners.",
+  "description": "Official venue and organizer marks displayed in News: ACL, Kempner, COLM, ML4H (AHLI), and npj. Shapes and original colors are preserved; the compact npj file contains only the unchanged red npj lettermark paths from the full journal masthead. Institution trademarks remain with their owners.",
   "sources": [
+    {
+      "file": "ml4h-ahli.svg",
+      "label": "AHLI — organizer of ML4H",
+      "displayed_in_news": true,
+      "page": "https://ml4h.ahli.cc/",
+      "url": "https://ml4h.ahli.cc/favicon.svg",
+      "note": "Unchanged four-color AHLI organizer mark used as the favicon on the ML4H 2026 official website; not a conference-specific logo."
+    },
     {
       "file": "ml4h.png",
       "label": "Machine Learning for Health (ML4H)",
-      "displayed_in_news": true,
-      "page": "https://ml4h.ahli.cc/",
+      "displayed_in_news": false,
+      "page": "https://ml4h.ahli.cc/past-events/2023/",
       "url": "https://raw.githubusercontent.com/ml4health/ml4health.github.io/master/2023/static/images/logo.png",
-      "note": "Unchanged ML4H conference mark from the official conference website repository; no year-specific text."
+      "note": "Historical ML4H 2023 mark retained as an unused asset; replaced in News by the AHLI mark used on the 2026 official website."
     },
     {
       "file": "acl-2026.png",
